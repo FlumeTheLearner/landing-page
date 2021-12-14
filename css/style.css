@@ -55,7 +55,7 @@ body {
 }
 
 .blurb,
-li {
+a {
     color: #E5E7EB;
 }
 
@@ -209,6 +209,15 @@ ul {
     gap: 16px;
 }
 
+a {
+    text-decoration: none;
+}
+
 button:hover {
     background-color: #2b66c2;
+}
+
+a:hover {
+    color:darkgray;
+    
 }
