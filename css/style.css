@@ -41,12 +41,24 @@ body {
 .right {
     min-width: 300px;
     background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-two {
     background-color: #F9FAF8;
     padding: 16px 150px;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-two .header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
 
 .container-three {
