@@ -14,8 +14,14 @@ body {
 .top-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 16px 150px;
     background-color: #1F2937
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .containers {
@@ -36,6 +42,17 @@ body {
     display: flex;
     flex-direction: column;
     min-width: 300px;
+}
+
+.left .header{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.blurb,
+li {
+    color: #E5E7EB;
 }
 
 .right {
