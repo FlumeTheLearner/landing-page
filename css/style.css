@@ -78,7 +78,7 @@ a {
     justify-content: center;
     align-items: center;
     min-width: 55%;
-    height: 250px;
+    min-height: 50%;
 }
 
 .container-two {
