@@ -72,6 +72,10 @@ li {
     align-items: center;
 }
 
+.squares {
+    display: flex;
+}
+
 .container-two .header {
     font-size: 36px;
     font-weight: 900;
