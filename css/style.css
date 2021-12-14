@@ -9,6 +9,7 @@ body {
     background-color: black;
     display: flex;
     flex-direction: column;
+    font-family: Roboto, sans-serif;
 }
 
 .top-header {
@@ -112,9 +113,12 @@ ul {
 
 button {
     font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
     border: none;
     border-radius: 8px;
-    background: #eee;
-    padding: 8px 16px;
+    background: #3882F6;
+    color: white;
+    padding: 8px 40px;
     margin-top: 8px;
   }
