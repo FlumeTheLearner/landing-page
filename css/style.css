@@ -58,6 +58,18 @@ li {
     color: #E5E7EB;
 }
 
+.left button {
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    padding: 8px 40px;
+    margin-top: 8px;
+  }
+  
 .right {
     background-color: gray;
     display: flex;
@@ -98,6 +110,18 @@ li {
     padding: 16px 150px;
     flex: 1;
     min-height: 250px;
+    max-width: 100%;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.rectangle {
+    background-color: #3882F6;
+    border-radius: 25px;
+    padding: 20px;
+    height: 100px;
+    flex: 1;
 }
 
 .footer {
@@ -115,15 +139,3 @@ ul {
     display: flex;
     gap: 16px;
 }
-
-button {
-    font-family: Roboto, sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    border: none;
-    border-radius: 8px;
-    background: #3882F6;
-    color: white;
-    padding: 8px 40px;
-    margin-top: 8px;
-  }
