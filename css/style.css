@@ -90,12 +90,14 @@ li {
     background-color: #E5E7EB;
     padding: 16px 150px;
     flex: 1;
+    min-height: 250px;
 }
 
 .container-four {
     background-color: #F9FAF8;
     padding: 16px 150px;
     flex: 1;
+    min-height: 250px;
 }
 
 .footer {
