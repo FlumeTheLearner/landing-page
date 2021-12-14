@@ -207,3 +207,7 @@ ul {
     display: flex;
     gap: 16px;
 }
+
+button:hover {
+    background-color: #2b66c2;
+}
