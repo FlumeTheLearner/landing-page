@@ -101,11 +101,9 @@ a {
     justify-content: center;
     align-items: center;
     min-height: 350px;
+    text-align: center;
 }
 
-.squares {
-    display: flex;
-}
 
 .container-two .header {
     font-size: 36px;
@@ -117,8 +115,8 @@ a {
 .square-container{
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .square {
